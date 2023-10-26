@@ -1,0 +1,48 @@
+<html>
+  <!-- cabeça da pagina (não aparece)-->
+  <head>
+    <title>Minicurso Responsividade | SAET 2023</title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <!-- corpo da pagina (aparece no browser)-->
+  <body class="body">
+    <div class="container">
+      <!-- formulario-->
+      <div class="formulario">
+        <h1>MySystem</h1>
+        <form>
+          <div class="campo-texto">
+            <label for="#login"> Login </label>
+            <input
+              id="login"
+              type="email"
+              placeholder="Informe seu e-mail"
+              required
+              name="login"
+            />
+          </div>
+          <div class="campo-texto">
+            <label for="#senha"> Senha </label>
+            <input
+              id="senha"
+              type="password"
+              placeholder="Informe sua senha"
+              required
+              name="senha"
+            />
+          </div>
+          <label for="#lembrar" class="caixa-selecao">
+            <input id="lembrar" type="checkbox" name="lembrar" />
+            Lembrar-me
+          </label>
+          <button type="submit">Entrar</button>
+        </form>
+      </div>
+      <!-- Mensagem-->
+      <div class="msg">
+        <p>Seja bem-vindo ao nosso sistema</p>
+      </div>
+    </div>
+  </body>
+</html>
